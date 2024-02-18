@@ -1,0 +1,9 @@
+.pointer{
+    cursor: pointer;
+}
+
+.divider-without-space{
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+}
