@@ -1,5 +1,5 @@
 import React, { useState ,useEffect} from 'react'
-import { FaHome, FaHeart, FaFilm, FaCog } from "react-icons/fa";
+import { FaHome, FaHeart, FaFilm } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
 
