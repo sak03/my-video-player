@@ -22,16 +22,24 @@ const VideoWatching = () => {
 
   return (
     <div className='row'>
-      <div className='col-lg-9'>
+      <div className='col-lg-9 col-9'>
         <div className='mt-3'>
           <ReactPlayer
             controls
             playing={true}
             url={filterVideo[0]?.url}
-            className=''
+            className='w-100'
+            width={"100%"}
+            height={"440px"}
           />
         </div>
         <div>{filterVideo[0]?.name}</div>
+        <div className='mt-3'>
+          <p className='my-0'><b>Discription</b></p>
+          <small>The sample video might have a few missing details. Use it as a reference, but do not limit your creativity
+            or restrict your design ideas to {`what’s`} shown in the sample. Feel free to enhance, improve, and include
+            additional features or better design elements.</small>
+        </div>
       </div>
       <div className='col-lg-3 video-list'>
         <div className='row py-1 px-2'>
